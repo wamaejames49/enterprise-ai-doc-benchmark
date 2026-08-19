@@ -1,0 +1,41 @@
+[
+  {
+    "scenario_id": "SCEN-FIN-001",
+    "domain": "Corporate Finance",
+    "software": "Microsoft Excel",
+    "difficulty": "Advanced",
+    "context": "Fortune 500 SaaS enterprise evaluating a $120M tuck-in acquisition.",
+    "prompt": "Create a detailed dynamic formula architecture for a 5-year discounted cash flow (DCF) model. You must:\n1. Use modern Excel dynamic array functions (LET, LAMBDA, XLOOKUP) where applicable.\n2. Calculate Unlevered Free Cash Flow (UFCF) from projected EBITDA with dynamic tax adjustment.\n3. Incorporate a dynamic WACC toggle supporting debt weights between 10% and 40% in 5% increments.\n4. Build an output sensitivity grid showing Enterprise Value against terminal growth rates (1.5% to 3.0%) and WACC (7.5% to 11.0%).",
+    "expected_deliverables": [
+      "Explicit formula strings for cell addresses C5:H25",
+      "Dynamic data table setup instructions",
+      "Zero circular references"
+    ]
+  },
+  {
+    "scenario_id": "SCEN-STRAT-002",
+    "domain": "Management Consulting / Strategy",
+    "software": "Microsoft Word",
+    "difficulty": "Intermediate-Advanced",
+    "context": "Global retailer facing supply chain disruption and 180 bps margin erosion.",
+    "prompt": "Draft a 2-page Executive Briefing Memo for the Chief Operating Officer recommending a dual-sourcing strategy.\nStructure requirements:\n- Section 1: BLUF (Investment required, margin impact, timeline).\n- Section 2: Current Vulnerability Assessment (Root cause, cost of inaction).\n- Section 3: Strategic Options Comparison Matrix (Option A: Status Quo, Option B: Nearshoring, Option C: Dual-Sourcing).\n- Section 4: 90-Day Execution Roadmap & Risk Mitigation.\nTone: Direct, quantified, executive-grade.",
+    "expected_deliverables": [
+      "Structured markdown ready for Word export",
+      "Quantified trade-offs table",
+      "Clear governance cadence"
+    ]
+  },
+  {
+    "scenario_id": "SCEN-PPT-003",
+    "domain": "Executive Communications",
+    "software": "Microsoft PowerPoint",
+    "difficulty": "Advanced",
+    "context": "Q4 Quarterly Business Review (QBR) presentation for the Board of Directors.",
+    "prompt": "Design a 4-slide board presentation summarizing enterprise digital transformation progress. Provide:\n- Slide 1: Executive Summary & OKR Scorecard.\n- Slide 2: Revenue Impact & Cost Avoidance Waterfall Analysis.\n- Slide 3: Major Delivery Milestones & Red-Flag Initiatives.\n- Slide 4: Capital Allocation Request for FY25.\nFor every slide, supply: (a) Action Lead Title, (b) Visual Layout Blueprint (columns/containers), (c) Bullet points with visual emphasis tokens (bold lead-ins), (d) Suggested chart type.",
+    "expected_deliverables": [
+      "Action-oriented slide titles",
+      "Layout and visual guidelines",
+      "Bullet hierarchy following the Pyramid Principle"
+    ]
+  }
+]
