@@ -1,0 +1,7 @@
+test_id,application,domain,complexity_tier,prompt_objective,strict_constraints,pass_criteria
+TC-XL-01,Excel,Financial Modeling,Tier-3,Dynamic Amortization Schedule,"Must use LET function, calculate dynamic interest based on SOFR floor of 1.5%",Formulas compile without #VALUE! or circular errors
+TC-XL-02,Excel,FP&A Data Analysis,Tier-2,Multi-tier commission calculation,"Use dynamic XLOOKUP with nested bracket logic, zero hardcoded tiers",Returns correct commission tiers for 5 edge test values
+TC-WD-01,Word,M&A Corporate Memo,Tier-3,Draft Investment Committee Deal Note,"Max 600 words, must include BLUF and downside risk scenarios table",Structured formatting with BLUF in first 100 words
+TC-WD-02,Word,HR / Org Design,Tier-2,Enterprise Restructuring Communication,"Empathetic yet legally compliant corporate tone, FAQ section for managers",Addresses severance, transition timelines, and core retention
+TC-PP-01,PowerPoint,Board Presentations,Tier-3,4-Slide Strategy Pitch Deck,"Pyramid Principle action titles, 3-column container layout descriptions",Zero generic titles (e.g. no 'Introduction' or 'Overview')
+TC-PP-02,PowerPoint,Investor Relations,Tier-2,Capital Raise Teaser Deck Layout,"Must provide python-pptx code to build slides programmatically",Code executes without library dependency errors
